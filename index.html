@@ -1,0 +1,41 @@
+<html><nav>
+<head></head>
+<link rel="stylesheet" href="index.css" /> 
+
+<body><h1>Name variations</h1>
+</nav>
+
+<main>
+    <div>
+        <label class="label" for="component-name">Enter your name</label>
+        <input type="text" class="textbox" placeholder="Your name" id="your-name" autocomplete="off">
+    </div>
+
+    <div class="table-container">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th width="200px">Variation</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Number of characters</td>
+                    <td id="answer1"></td>
+                </tr>
+                <tr>
+                    <td>Lower case</td>
+                    <td id="answer2"></td>
+                </tr>
+                <tr>
+                    <td>Upper case</td>
+                    <td id="answer3"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+<script src="index.js"></script> 
+</body>
+</html>
